@@ -1,0 +1,15 @@
+{
+  "uuid": "68dbbd1f-eb72-42a8-ab12-40a0029ea746",
+  "shortName": "Kyber Watchface",
+  "longName": "Kyber Watchface",
+  "companyName": "Matthew Tole",
+  "versionCode": 1,
+  "versionLabel": "1.1.0",
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {},
+  "resources": {
+    "media": []
+  }
+}
