@@ -1,4 +1,4 @@
-#include "pebble_os.h"
+#include <pebble.h>
 #include "timestr.h"
 
 static const char* NUMBERS[] = { "", "one", "two", "three", "four", "five", "six",
