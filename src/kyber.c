@@ -1,6 +1,6 @@
 #include <pebble.h>
 
-#include "libs/pebble-assist.h"
+#include "libs/pebble-assist/pebble-assist.h"
 #include "timestr.h"
 
 typedef struct {
@@ -101,10 +101,10 @@ void handle_init(void) {
 }
 
 void handle_deinit() {
-  text_layer_destroy_safe(layer_minutes_2);
-  text_layer_destroy_safe(layer_minutes_1);
-  text_layer_destroy_safe(layer_hour);
-  window_destroy_safe(window);
+  text_layer_destroy(layer_minutes_2);
+  text_layer_destroy(layer_minutes_1);
+  text_layer_destroy(layer_hour);
+  window_destroy(window);
 }
 
 void handle_tick(struct tm *tick_time, TimeUnits units_changed) {
